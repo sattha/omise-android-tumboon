@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Omise Tumboon</string>
+    <!--Thank You Screen-->
+    <string name="back_to_home">Back to home</string>
+    <!--Payment Screen-->
+    <string name="your_donate_is_complete">Your donate is complete.</string>
+    <string name="donate">Donate</string>
+    <string name="card_number">Card number</string>
+    <string name="name_on_card">Name on card</string>
+    <string name="expairy_date">Expairy date</string>
+    <string name="cvv">CVV</string>
+    <string name="amount">Amount (THB)</string>
+    <string name="button_retry">Retry</string>
+</resources>

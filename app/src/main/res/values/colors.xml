@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/omiseBlue</color>
+    <color name="colorPrimaryDark">#1544c6</color>
+    <color name="colorAccent">@color/fontHeader</color>
+
+    <color name="omiseBlue">#194fe4</color>
+    <color name="acceptBlue">#0588eb</color>
+    <color name="acceptBlueOP50">#800588eb</color>
+    <color name="white">#FFFFFF</color>
+    <color name="fontHeader">#3A4C5E</color>
+    <color name="fontContent">#627180</color>
+
+</resources>

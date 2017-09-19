@@ -1,0 +1,70 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext.kotlin_version = '1.1.4-3'
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0-beta5'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "io.realm:realm-gradle-plugin:3.1.3"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url 'https://github.com/uPhyca/stetho-realm/raw/master/maven-repo'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    // Sdk and tools
+    minSdkVersion = 16
+    targetSdkVersion = 26
+    compileSdkVersion = 26
+    buildToolsVersion = '26.0.1'
+
+    // App dependencies
+    supportLibraryVersion = '26.1.0'
+    constraintLayout = '1.0.2'
+    okhttp3 = '3.9.0'
+    glideVersion = '4.0.0'
+    retrofit = '2.3.0'
+    rxJava = '2.1.3'
+    rxAndroid = '2.0.1'
+    kRealmExtension = '1.0.9'
+    gson = '2.8.1'
+    stetho = '1.5.0'
+    stethoRealm = '2.1.0'
+    gson = '2.8.1'
+    omise = '2.3.+'
+    autofittextview = "0.2.+"
+
+    // DI Framework
+    dragger = '2.11'
+
+    // Dependencies for local unit tests
+    junitVersion = '4.12'
+    mockitoVersion = '1.10.19'
+    powerMockito = '1.7.1'
+    hamcrestVersion = '1.3'
+
+    // Android Testing Support Library's runner and rules
+    runnerVersion = '1.0.0'
+    rulesVersion = '1.0.0'
+
+    // Espresso UI Testing dependencies.
+    espressoVersion = '3.0.1'
+}
