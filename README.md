@@ -32,3 +32,12 @@ Install the dependencies and devDependencies and start the server.
 ```
 
 
+### Note 
+co.omise.android.ui.CreditCardEditText 
+class is not working on some Android Device.
+
+So, I create another one to solved this problem by using TextWatcher
+instead of KeyEvent please check it!
+
+see more => https://stackoverflow.com/a/15485248/2077479
+
